@@ -9,7 +9,18 @@ repositories {
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
     implementation 'io.appium:java-client:9.2.3'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
+    implementation 'org.aeonbits.owner:owner:1.0.12'
+    implementation 'com.codeborne:selenide:7.3.2'
+    implementation 'io.qameta.allure:allure-selenide:2.27.0'
+    implementation 'com.codeborne:selenide-appium:7.3.2'
+    testImplementation(
+            'org.slf4j:slf4j-simple:2.0.13',
+            'io.rest-assured:rest-assured:5.4.0',
+            'org.junit.jupiter:junit-jupiter-api:5.10.2',
+            'io.qameta.allure:allure-junit5:2.27.0',
+            'com.github.romankh3:image-comparison:4.4.0',
+            'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+    )
 }
 
 test {
