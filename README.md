@@ -1,11 +1,11 @@
-## yandexmarkettests
+# yandexmarkettests
 Test Assignment for dats.team. Position: Automation QA Specialist
 
 E2E tests that implement the folowing scenarios: 
  - Adding a product from "Books" section of the catalog
  - Adding then deleting the same product from the cart
 
-# What do you need to run tests in this project:
+## What do you need to run tests in this project:
  - **appium** installed (if not, see: https://appium.io/docs/en/latest/quickstart/install/)
  - **appium-uiautomator2-driver** installed (if not, see: https://github.com/appium/appium-uiautomator2-driver)
  - make sure that **ANDROID_HOME**, **tools**, **platform-tools**, and **build-tools** are exported
