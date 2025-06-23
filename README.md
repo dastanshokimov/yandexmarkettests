@@ -1,5 +1,4 @@
 # yandexmarkettests
-Test Assignment for dats.team. Position: Automation QA Specialist
 
 E2E tests that implement the folowing scenarios: 
  - Adding a product from "Books" section of the catalog
